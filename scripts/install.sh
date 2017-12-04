@@ -92,7 +92,7 @@ Install_Influxdb
 while true; do
 	echo -e "\e[1;33mCreate the databse whose name is collectd on the website\e[0m"
 	read -p "Finished? [y/n]: " CHOICE
-	if [ $CHOICE == 'y' ] ; then
+	if [ $CHOICE = 'y' ] ; then
 		Install_Collectd
 		Install_Grafana
 		break;
