@@ -11,7 +11,7 @@
 
 function Setup {
     yum install git dos2unix -y > /dev/null
-    git clone https://github.com/Kylinlin/performance_monitor.git
+    git clone https://github.com/WhitecrowAuraro/performance_monitor.git
     cd performance_monitor/scripts
 	  dos2unix *
     sh install.sh
